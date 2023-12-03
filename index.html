@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>ToDo List <i class="fa-solid fa-pen-to-square"></i> </header>
+    <div class="todo-container"> <!-- all content اللي هيمسك العناصر كلها-->
+        <!-- <div class="title">ToDo List</div> -->
+        <!-- input field that will be added items -->
+        <div class="add-task">
+            <input type="text" id="theInput">
+            <!-- span that is included "+" -->
+            <span class="plus">+</span>
+        </div>
+
+        <!-- place will be added or existed tasks -->
+        <div class="tasks-content">
+            <span class="no-tasks-msg">No Tasks To Show</span>
+            <!-- <span class="task-box">
+                Task One
+                <span class="delete">Delete</span>
+            </span>
+            <span class="task-box">
+                Task Two
+                <span class="delete">Delete</span>
+            </span> -->
+        </div>
+    </div>
+
+    <!-- statistics  of the tasks -->
+    <div class="task-stats">
+        <!-- # tasks -->
+        <div class="tasks-count">
+            Tasks <span>0</span>
+        </div>
+        <div class="tasks-completed">
+            Completed <span>0</span>
+        </div>
+    </div>
+
+    <script src="main1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script> 
+
+</body>
+</html>
+
